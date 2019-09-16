@@ -1,0 +1,224 @@
+.wx-list .list-tab .tab-cont .cont-item li a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.point-a::before, .wx-list .list-tab .tab-cont .cont-item li::before, .wx-list .list-title .title-l .l-icon, .wx-list .list-title .title-l .l-text, .wx-list .list-title .title-r .r-nav li, .wx-list .list-tab .tab-cont .cont-item li a {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+
+.wx-list .list-title, .wx-list .list-tab, .wx-list .list-tab .tab-cont .cont-item {
+  zoom: 1;
+}
+
+.wx-list .list-title:after, .wx-list .list-tab:after, .wx-list .list-tab .tab-cont .cont-item:after {
+  clear: both;
+}
+
+.wx-list .list-title:before, .wx-list .list-tab:before, .wx-list .list-tab .tab-cont .cont-item:before, .wx-list .list-title:after, .wx-list .list-tab:after, .wx-list .list-tab .tab-cont .cont-item:after {
+  content: "";
+  display: table;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.point-a::before, .wx-list .list-tab .tab-cont .cont-item li::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background-color: #666;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.wx-list {
+  margin-bottom: 50px;
+}
+
+.wx-list .list-title {
+  border-bottom: 1px solid #e1e1e1;
+  height: 40px;
+}
+
+.wx-list .list-title .title-l {
+  float: left;
+}
+
+.wx-list .list-title .title-l .l-icon {
+  width: 37px;
+  height: 40px;
+  background: url("../images/icon_1.png") no-repeat;
+  margin-left: -9px;
+  vertical-align: middle;
+}
+
+.wx-list .list-title .title-l .l-text {
+  font-size: 24px;
+  line-height: 24px;
+  color: #333333;
+  vertical-align: top;
+}
+
+.wx-list .list-title .title-r {
+  float: right;
+}
+
+.wx-list .list-title .title-r .r-nav li {
+  height: 40px;
+  line-height: 40px;
+  margin-right: 24px;
+}
+
+.wx-list .list-title .title-r .r-nav li a {
+  font-size: 14px;
+  color: #666666;
+}
+
+.wx-list .list-title .title-r .r-nav li a:hover {
+  color: #cf3340;
+}
+
+.wx-list .list-title .title-r .r-nav li.active {
+  border-bottom: 1px solid #cf3340;
+}
+
+.wx-list .list-title .title-r .r-nav li.active a {
+  color: #cf3340;
+}
+
+.wx-list .list-title .title-r .r-nav li:last-child {
+  margin-right: 0;
+}
+
+.wx-list .list-tab {
+  padding-top: 20px;
+  margin-right: -40px;
+}
+
+.wx-list .list-tab .tab-head {
+  float: left;
+  margin-right: 36px;
+}
+
+.wx-list .list-tab .tab-head li {
+  width: 124px;
+  height: 40px;
+  background-color: #efefef;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 40px;
+  color: #444444;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wx-list .list-tab .tab-head li.active {
+  background: #cf3340;
+  color: #ffffff;
+}
+
+.wx-list .list-tab .tab-cont {
+  float: left;
+  width: 970px;
+}
+
+.wx-list .list-tab .tab-cont .cont-item {
+  display: none;
+}
+
+.wx-list .list-tab .tab-cont .cont-item.active {
+  display: block;
+}
+
+.wx-list .list-tab .tab-cont .cont-item li {
+  float: left;
+  width: 272px;
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-right: 50px;
+}
+
+.wx-list .list-tab .tab-cont .cont-item li a {
+  width: 218px;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+.wx-list .list-tab .tab-cont .cont-item li a:hover {
+  color: #cf3340;
+}
+
+.wx-list2 {
+  border: 1px solid #e6e6e6;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+.wx-list2 .list-title {
+  border-bottom: 0;
+}
+
+.wx-list2 .list-title .title-l {
+  margin-left: 20px;
+}
+
+.wx-list2 .list-title .title-r .tab-head li {
+  float: left;
+  width: 124px;
+  height: 40px;
+  background-color: #efefef;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 40px;
+  color: #444444;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 13px;
+}
+
+.wx-list2 .list-title .title-r .tab-head li.active {
+  background: #cf3340;
+  color: #ffffff;
+}
+
+.wx-list2 .list-title .title-r .tab-head li:last-child {
+  margin-right: 0;
+}
+
+.wx-list2 .list-tab .tab-cont {
+  width: 100%;
+  margin-left: 19px;
+}
+
+.wx-list2 .list-tab .tab-cont .cont-item li {
+  margin-right: 106px;
+}
+
+.wx-list3 {
+  padding-bottom: 10px;
+}
+
+.wx-list3 .list-tab .tab-cont .cont-item li {
+  width: 167px;
+  margin-right: 12px;
+  margin-bottom: 13px;
+}
+
+.wx-list3 .list-tab .tab-cont .cont-item li:before {
+  display: none;
+}
+
+.wx-list3 .list-tab .tab-cont .cont-item li a {
+  width: 100%;
+  border: solid 1px #e6e6e6;
+  text-align: center;
+}
