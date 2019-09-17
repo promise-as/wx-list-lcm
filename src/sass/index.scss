@@ -37,7 +37,6 @@
 }
 
 .wx-list{
-  margin-bottom: 50px; // 最后删除
   .list-title{
     @extend %clearfix;
     border-bottom: 1px solid #e1e1e1;
@@ -148,13 +147,31 @@
 .wx-list2{
   border: 1px solid #e6e6e6;
   padding-top: 16px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
   .list-title{
-    border-bottom: 0;
+    height: 40px;
     .title-l{
       margin-left: 20px;
+      float: left;
+      .l-icon{
+        @extend %in-b;
+        width: 37px;
+        height: 40px;
+        background: url("../images/icon_1.png") no-repeat;
+        margin-left: -9px;
+        vertical-align: middle;
+      }
+      .l-text{
+        @extend %in-b;
+        font-size: 24px;
+        line-height: 24px;
+        color: #333333;
+        vertical-align: top;
+      }
     }
     .title-r{
+      float: right;
       .tab-head{
         li{
           float: left;
@@ -180,19 +197,42 @@
     }
   }
   .list-tab{
+    padding-top: 20px;
     .tab-cont{
       width: 100%;
       margin-left: 19px;
       .cont-item{
+        @extend %clearfix;
+        display: none;
+        margin-right: -35px;
+        &.active{
+          display: block;
+        }
         li{
           margin-right: 106px;
+          float: left;
+          width: 272px;
+          @extend .point-a;
+          color: #666666;
+          font-size: 14px;
+          margin-bottom: 4px;
+          a{
+            @extend %in-b;
+            @extend %one;
+            width: 218px;
+            height: 32px;
+            line-height: 32px;
+            vertical-align: middle;
+            &:hover{
+              color: #cf3340;
+            }
+          }
         }
       }
     }
   }
 }
 .wx-list3{
-  padding-bottom: 10px;
   .list-tab{
     .tab-cont{
       .cont-item{
