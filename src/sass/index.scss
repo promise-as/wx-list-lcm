@@ -37,6 +37,7 @@
 }
 
 .wx-list{
+  padding: 20px 0;
   .list-title{
     @extend %clearfix;
     border-bottom: 1px solid #e1e1e1;
@@ -47,7 +48,7 @@
         @extend %in-b;
         width: 37px;
         height: 40px;
-        background: url("../images/icon_1.png") no-repeat;
+        background: url("https://img.thea.cn/public/platform/thea/201909/hbj/wx-list-lcm/images/icon_1.png") no-repeat;
         margin-left: -9px;
         vertical-align: middle;
       }
@@ -91,6 +92,10 @@
     padding-top: 20px;
     @extend %clearfix;
     margin-right: -40px;
+    display: none;
+    &.active{
+      display: block;
+    }
     .tab-head{
       float: left;
       margin-right: 36px;
@@ -144,6 +149,7 @@
     }
   }
 }
+
 .wx-list2{
   border: 1px solid #e6e6e6;
   padding-top: 16px;

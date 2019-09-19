@@ -13,5 +13,6 @@ $(function () {
     });
   }
 
+  tabHanle('.r-nav li', '.wx-list .list-tab', 'active');
   tabHanle('.tab-head li', '.tab-cont .cont-item', 'active');
 });
